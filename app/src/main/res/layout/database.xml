@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginVertical="50dp"
+        >
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="使用者"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_UserName_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User"
+            android:textSize="26dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_upDate_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上傳雲端"
+            app:icon="@drawable/ic_upload" />
+
+        <Button
+            android:id="@+id/btn_download_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下載備份"
+            app:icon="@drawable/ic_download" />
+
+        <TextView
+            android:id="@+id/textView_dataView_ID"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fadeScrollbars="true"
+            android:isScrollContainer="true"
+            android:overScrollMode="ifContentScrolls"
+            android:scrollIndicators="end|right"
+            android:scrollbarAlwaysDrawHorizontalTrack="true"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbars="vertical"
+            android:text="TextView"
+            android:verticalScrollbarPosition="right" />
+
+        <Button
+            android:id="@+id/btn_coverSave_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="覆蓋手機存檔"
+            app:icon="@android:drawable/ic_popup_disk_full" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="雲端存檔預覽" />
+
+        <ListView
+            android:id="@+id/listView_show_ID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

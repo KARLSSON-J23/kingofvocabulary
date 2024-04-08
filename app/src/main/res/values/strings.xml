@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">king of vocabulary</string>
+    <string name="BTN_vocabulary_list">單字表</string>
+    <string name="BTN_dictionary">字典</string>
+    <string name="BTN_exam">測驗</string>
+    <string name="BTN_delete_word">刪除</string>
+    <string name="String_Input_Translate">請輸入單字</string>
+    <string name="String_Login">登入</string>
+    <string name="String_back_up">備份</string>
+    <string name="String_Account">帳號</string>
+    <string name="String_Password">密碼</string>
+    <string name="String_register">註冊</string>
+    <string name="String_email">電子郵件</string>
+    <string name="String_signOut">登出</string>
+</resources>
